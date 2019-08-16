@@ -1,0 +1,106 @@
+.vdo-border:hover {
+    background: #e62b1e;
+    transform: scale(1.2);
+}
+.vdo-border {
+    transition: transform .2s;
+    width: 80%;
+    margin: auto;
+}
+
+.speakerTopic {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+.speakerName {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+.yt-thumbnail {
+    position: relative;
+    width: 50%;
+}
+.yt-thumbnail img {
+    padding-bottom: 1rem;
+}
+
+.ytbuild{
+    padding-right: 0.3rem;
+}
+
+.play-btn {
+    background: rgb(48, 48, 48);
+    border-radius: 50% / 10%;
+    color: #FFFFFF;
+    font-size: 1rem;
+    top: 25%;
+    left: 80%;
+    height: 3em;
+    margin: 20px auto;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    text-indent: 0.1em;
+    transition: all 150ms ease-out;
+    width: 4em;
+    opacity: 0.8;
+}
+.play-btn:hover {
+    background: #e62b1e !important;
+    opacity: 1;
+}
+.play-btn::before { 
+    background: inherit;
+    border-radius: 5% / 50%;
+    bottom: 9%;
+    content: "";
+    left: -5%;
+    position: absolute;
+    right: -5%;
+    top: 9%;
+} 
+.play-btn::after {
+    border-style: solid;
+    border-width: 1em 0 1em 1.732em;
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.75);
+    content: ' ';
+    font-size: 0.75em;
+    height: 0;
+    margin: -1em 0 0 -0.75em;
+    top: 50%;
+    position: absolute;
+    width: 0;
+}
+
+.container h4 {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    height: 25px;
+    color: #e62b1e;
+}
+.container span {
+    display: inline-block;
+    color: #e62b1e;
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+    animation: move 2s;
+    /* -webkit-animation-iteration-count: infinite; */
+    animation-delay: 1s;
+}
+
+@keyframes move {
+    0%{top: 0px;}
+    30%{top: -25px;}
+    60%{top: -50px;}
+    90%{top: -75px;}
+    100%{top: -80px}
+}
