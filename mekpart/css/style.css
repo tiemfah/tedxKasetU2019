@@ -1,8 +1,6 @@
-html,
 body {
-    background-color: black;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-
+    font-weight: 300;
 }
 
 sup {
@@ -106,21 +104,18 @@ hr {
 .navbar {
     background-color: black !important;
 }
-
-.superbold {
+.superbold{
     font-weight: 900;
 }
-
-.strand {
+.strand{
     padding-left: 3rem;
     letter-spacing: 2rem;
 }
-
-.smol-x {
+.smol-x{
     letter-spacing: -0.07rem;
     margin-top: 0%;
 }
 
-a:hover {
+a:hover{
     color: gray;
 }
