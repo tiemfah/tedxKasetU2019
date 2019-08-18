@@ -1,3 +1,7 @@
+html, body{
+    background: black;
+}
+
 .vdo-border:hover {
     background: #e62b1e;
     transform: scale(1.2);
@@ -78,29 +82,113 @@
     width: 0;
 }
 
-.container h4 {
-    float: left;
-    overflow: hidden;
-    position: relative;
-    height: 25px;
-    color: #e62b1e;
+.spacing {
+    height: 140px;
 }
-.container span {
+
+.secTitle h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+.separator {
+  margin-top: 25px;
+  margin-bottom: 80px;
+  border: 0;
+}
+
+.separator--line {
+  border: 0;
+  border-bottom: 1px solid white;
+  width: 0;
+  -webkit-animation: separator-width 2s ease-out forwards;
+          animation: separator-width 2s ease-out forwards;
+}
+
+@-webkit-keyframes separator-width {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes separator-width {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+.thisyear {
+    color: #e62b1e;
+    text-align: center;
+}
+.thisyear h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.slider-wrapper h4 {
+    font-size: 40px;
+    margin-right: -5px;;
+    text-align: center !important;
+    overflow: hidden;
+    /* position: relative; */
+    height: 40px;
+    color: #e62b1e;
+    margin-bottom: 50px;
+}
+.slider-wrapper span {
+    font-size: 40px;
+    text-align: center !important;
+    margin-left: 0;
     display: inline-block;
     color: #e62b1e;
     position: relative;
     white-space: nowrap;
-    top: 0;
-    left: 0;
-    animation: move 2s;
+    justify-content: center;
+    /* top: 0;
+    left: 0; */
     /* -webkit-animation-iteration-count: infinite; */
-    animation-delay: 1s;
 }
 
+#year17 span {
+    animation: moving 2.5s ease-out forwards;
+    animation-delay: 1s;
+}
+@keyframes moving {
+    0%{top: 0px;}
+    50%{top: -50px;}
+    100%{top: -96px;}
+}
+
+#year18 span {
+    animation: move 2.5s ease-out forwards;
+    animation-delay: 1s;
+}
 @keyframes move {
     0%{top: 0px;}
-    30%{top: -25px;}
-    60%{top: -50px;}
-    90%{top: -75px;}
-    100%{top: -80px}
+    100%{top: -48px;}
 }
+
+.slider-wrapper {
+    font-size: 35px;
+    display: flex;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    justify-content: center;
+}
+/* .slider {
+    height: 52px;
+    overflow: hidden;
+}
+.slider div {
+    height: 52px;
+    padding: 2px;
+    margin-bottom: 52px;
+} */
