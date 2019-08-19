@@ -1,3 +1,9 @@
+:root {
+    --red-clr: red;
+    --blk-clr: black;
+    --wht-clr: white;
+}
+
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
@@ -7,66 +13,28 @@ sup {
     font-size: 0.7em;
 }
 
-hr {
-    width: 80%;
-    color: wheat;
+nav .logo{
+    color: var(--red-clr);
+    font-weight: 900;
 }
 
-#intro {
-    height: 100vh;
-    font-weight: bold;
-    background-color: black;
+nav .logo2{
+    color: var(--wht-clr);
+    font-weight: 300;
 }
 
-#info {
-    height: 100vh;
-    background-color: black;
-}
-
-#stuff {
-    height: 100vh;
-    background-color: red;
-}
-
-#attend {
-    height: 100vh;
-    background-color: #ff6464;
-}
-
-.red {
-    color: red
-}
-
-.black {
-    color: black;
-}
-
-.white {
-    color: white;
-}
-
-.top {
-    margin-bottom: 5px;
-}
-
-.small-spacing {
-    color: white;
-    width: 140px;
-    letter-spacing: -0.05em;
+.xequal {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--wht-clr);
     position: absolute;
-    top: 60%;
-    left: 2%;
+    margin-top: 20px;
+    margin-left: 2px;
+    opacity: 1
 }
 
-.no-bot-m {
-    margin-bottom: 0;
-}
-
-.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+.navbar {
+    background-color: var(--blk-clr) !important;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -75,15 +43,15 @@ hr {
 }
 
 .nav-link {
-    color: white;
+    color: var(--wht-clr);
 }
 
-.logo {
-    object-fit: contain;
+nav a:hover {
+    color: gray;
 }
 
-.activeeiei {
-    border: 2px solid white;
+.active-a {
+    border: 2px solid var(--wht-clr);
     padding: 2px 4px !important;
     margin-top: 0.3rem;
     margin-right: 1.5rem;
@@ -91,31 +59,21 @@ hr {
 }
 
 .navbar-toggler {
-    color: white;
-    background-color: black;
-    border: 1px solid white;
+    color: var(--wht-clr);
+    background-color: var(--blk-clr);
+    border: 1px solid var(--wht-clr);
 }
 
 .navbar-toggler-icon {
     letter-spacing: 6px;
-    color: white;
+    color: var(--wht-clr);
 }
 
-.navbar {
-    background-color: black !important;
-}
-.superbold{
-    font-weight: 900;
-}
-.strand{
-    padding-left: 3rem;
-    letter-spacing: 2rem;
-}
-.smol-x{
-    letter-spacing: -0.07rem;
-    margin-top: 0%;
+.fas .fa-bars {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
 }
 
-a:hover{
-    color: gray;
+@media screen and (min-width:800px){
 }
