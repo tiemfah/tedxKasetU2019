@@ -29,11 +29,10 @@ html, body{
 }
 .yt-thumbnail {
     position: relative;
-    width: 50%;
 }
 .yt-thumbnail img {
     padding-bottom: 1rem;
-    max-width: 200%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -47,7 +46,7 @@ html, body{
     color: #FFFFFF;
     font-size: 1rem;
     top: 25%;
-    left: 80%;
+    left: 40%;
     height: 3em;
     margin: 20px auto;
     padding: 0;

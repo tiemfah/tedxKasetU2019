@@ -29,39 +29,41 @@ var vdoID_18 = [
     // { no: 12, id : "gwY8Q-jgaLU"}
 ]
 
-var vdo_yr = null;
 
 // Add video embed
-function playvdo(vdoid) {
-    // let vdo_yr = null;
-    // if (yr == 'yr18') {
-    //     vdo_yr = vdoID_18;
-    // } else {
-    //     vdo_yr = vdoID_17;
-    // }
-    console.log(vdo_yr[vdoid - 1].id)
-    var vdo = document.querySelectorAll("#" + yr_text + " .row .ytbuild .vdo-border .yt-thumbnail");
-    if (vdo[vdoid - 1].id == vdoid) {
-        vdo[vdoid - 1].innerHTML = '<iframe width="320" height="196"src="https://www.youtube.com/embed/' + vdo_yr[vdoid - 1].id + '?rel=0&amp;showinfo=0&amp;autoplay=1"'
-            + 'frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'
+function playvdo(vdoyr, vdoid) {
+    if (vdoyr == vdoID_18){
+        yr_text = 'yr18';
+    } else {
+        yr_text = 'yr17';
+    }
+    console.log(yr_text)
+    var select_yr = document.querySelectorAll("#" + yr_text + " .row .ytbuild .vdo-border .yt-thumbnail");
+    if (select_yr[vdoid - 1].id == vdoid) {
+        select_yr[vdoid - 1].innerHTML = '<iframe width="320" height="196"src="https://www.youtube.com/embed/' + vdoyr[vdoid - 1].id + '?rel=0&amp;showinfo=0&amp;autoplay=1"'
+        + 'frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'
     }
 }
 
 // Add preview
 function buildpreview(yr) {
-    // let vdo_yr = null;
+    var vdo_yr = null;
+    var yr_text = '';
+    var vdo_text = '';
     if (yr == 'yr18') {
         vdo_yr = vdoID_18;
-        yr_text = 'yr18'
+        yr_text = 'yr18';
+        vdo_text = 'vdoID_18';
     } else {
         vdo_yr = vdoID_17;
-        yr_text = 'yr17'
+        yr_text = 'yr17';
+        vdo_text = 'vdoID_17';
     }
     for (var i = 1; i <= vdo_yr.length; i++) {
         var vdo = document.querySelectorAll("#" + yr_text + " .row .ytbuild .vdo-border .yt-thumbnail");
         if (vdo[i - 1].id == i) {
             vdo[i - 1].innerHTML += '<img src="https://img.youtube.com/vi/' + vdo_yr[i - 1].id + '/mqdefault.jpg" alt="">'
-            vdo[i - 1].innerHTML += '<div class="play-btn" onclick="playvdo(' + i + ')"></div>'
+            vdo[i - 1].innerHTML += '<div class="play-btn" onclick="playvdo(' + vdo_text + ',' + i + ')"></div>'
         }
     }
 }

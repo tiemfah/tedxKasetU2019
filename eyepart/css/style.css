@@ -1,0 +1,79 @@
+:root {
+    --red-clr: red;
+    --blk-clr: black;
+    --wht-clr: white;
+}
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+
+sup {
+    font-size: 0.7em;
+}
+
+nav .logo{
+    color: var(--red-clr);
+    font-weight: 900;
+}
+
+nav .logo2{
+    color: var(--wht-clr);
+    font-weight: 300;
+}
+
+.xequal {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--wht-clr);
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 2px;
+    opacity: 1
+}
+
+.navbar {
+    background-color: var(--blk-clr) !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.nav-link {
+    color: var(--wht-clr);
+}
+
+nav a:hover {
+    color: gray;
+}
+
+.active-a {
+    border: 2px solid var(--wht-clr);
+    padding: 2px 4px !important;
+    margin-top: 0.3rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.navbar-toggler {
+    color: var(--wht-clr);
+    background-color: var(--blk-clr);
+    border: 1px solid var(--wht-clr);
+}
+
+.navbar-toggler-icon {
+    letter-spacing: 6px;
+    color: var(--wht-clr);
+}
+
+.fas .fa-bars {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+@media screen and (min-width:800px){
+}
