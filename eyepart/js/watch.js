@@ -10,8 +10,6 @@ var vdoID_17 = [
     { no: 8, id: "_Pp8q-g0JGk" },
     { no: 9, id: "p0CSG7rxW_s" }, 
     { no: 10, id : "JVSTp23IGQY" }, 
-    // { no: 11, id : "23BA9X6Pphk" }, 
-    // { no: 12, id : "gwY8Q-jgaLU"}
 ]
 
 var vdoID_18 = [
@@ -25,40 +23,27 @@ var vdoID_18 = [
     { no: 8, id: "2UoGnz3jtR0" },
     { no: 9, id: "56794S-nfGM" }, 
     { no: 10, id : "HLmEC-3QXKw" }, 
-    // { no: 11, id : "23BA9X6Pphk" }, 
-    // { no: 12, id : "gwY8Q-jgaLU"}
 ]
 
+function set_yr_id(yr) {
+    yr_text = yr == vdoID_18 ? yr_text = 'yr18' : yr_text = 'yr17';
+    return yr_text;
+}
 
 // Add video embed
-function playvdo(vdoyr, vdoid) {
-    if (vdoyr == vdoID_18){
-        yr_text = 'yr18';
-    } else {
-        yr_text = 'yr17';
-    }
-    console.log(yr_text)
+function playvdo(vdo_yr, vdoid) {
+    var yr_text = set_yr_id(vdo_yr);
     var select_yr = document.querySelectorAll("#" + yr_text + " .row .ytbuild .vdo-border .yt-thumbnail");
     if (select_yr[vdoid - 1].id == vdoid) {
-        select_yr[vdoid - 1].innerHTML = '<iframe width="320" height="196"src="https://www.youtube.com/embed/' + vdoyr[vdoid - 1].id + '?rel=0&amp;showinfo=0&amp;autoplay=1"'
+        select_yr[vdoid - 1].innerHTML = '<iframe width="320" height="196"src="https://www.youtube.com/embed/' + vdo_yr[vdoid - 1].id + '?rel=0&amp;showinfo=0&amp;autoplay=1"'
         + 'frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'
     }
 }
 
 // Add preview
-function buildpreview(yr) {
-    var vdo_yr = null;
-    var yr_text = '';
-    var vdo_text = '';
-    if (yr == 'yr18') {
-        vdo_yr = vdoID_18;
-        yr_text = 'yr18';
-        vdo_text = 'vdoID_18';
-    } else {
-        vdo_yr = vdoID_17;
-        yr_text = 'yr17';
-        vdo_text = 'vdoID_17';
-    }
+function buildpreview(vdo_yr) {
+    var yr_text = set_yr_id(vdo_yr);
+    var vdo_text = yr_text == 'yr18' ? vdo_text = 'vdoID_18' : vdo_text = 'vdoID_17';
     for (var i = 1; i <= vdo_yr.length; i++) {
         var vdo = document.querySelectorAll("#" + yr_text + " .row .ytbuild .vdo-border .yt-thumbnail");
         if (vdo[i - 1].id == i) {
@@ -68,8 +53,8 @@ function buildpreview(yr) {
     }
 }
 
-buildpreview('yr18');
-buildpreview('yr17');
+buildpreview(vdoID_18);
+buildpreview(vdoID_17);
 
 // var lazyLoadInstance = new LazyLoad({
 //     elements_selector: ".lazy",
