@@ -1,4 +1,4 @@
-html, body{
+html, body {
     background: black;
     /* background: linear-gradient(#200122, #6f0000); */
 }
@@ -18,12 +18,12 @@ sup {
     font-size: 0.7em;
 }
 
-nav .logo{
+nav .logo {
     color: var(--red-clr);
     font-weight: 900;
 }
 
-nav .logo2{
+nav .logo2 {
     color: var(--wht-clr);
     font-weight: 300;
 }
@@ -80,5 +80,33 @@ nav a:hover {
     font-size: 1em;
 }
 
-@media screen and (min-width:800px){
+.row {
+    margin-top: 150px;
 }
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.box-flex {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    margin: 50px;
+    height: 600px;
+    width: 450px;
+    border: 1px solid #fff;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:800px) {}
