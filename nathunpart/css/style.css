@@ -100,10 +100,27 @@ nav a:hover {
     margin: 50px;
     height: 600px;
     width: 450px;
-    border: 1px solid #fff;
+    background-color: rgba(160, 160, 160, 0.1);
+    border-radius: 20px;
+    transition: background-color 0.4s;
+    text-align: center;
 }
 
+.box:hover {
+    background-color: rgba(255, 0, 0 ,0.8);
+}
 
+.handshake {
+    margin-top: 50px;
+    width: 256px;
+    height: 256px;
+}
+
+.raise-hand {
+    margin-top: 75px;
+    width: 200px;
+    height: 200px;
+}
 
 
 
