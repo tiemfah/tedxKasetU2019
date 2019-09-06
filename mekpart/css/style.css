@@ -27,10 +27,11 @@ nav .logo2{
     font-size: 12px;
     font-weight: 700;
     color: var(--wht-clr);
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 2px;
     opacity: 1
+}
+
+.lowLh {
+    line-height: 0;
 }
 
 .navbar {
