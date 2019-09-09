@@ -9,4 +9,4 @@ web dev team repo for TEDx KasetsartU 2019.
 # Something Missing?
 
 If you have ideas for something that should be on this page, let us know or open an issue !!
-JDK Don't you dare open
+JDK Don't you dare open an issue
