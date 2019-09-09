@@ -135,7 +135,9 @@ header>div.menu-toggle {
 
 section.black{
     height: 100vh;
-    background: #000;
+    /* background: #000; */
+    background-image: url('https://images.pexels.com/photos/325044/pexels-photo-325044.jpeg');
+    background-size: cover;
 }
 
 section.white{
