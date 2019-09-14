@@ -13,15 +13,15 @@ var vdoID_17 = [
 ]
 
 var vdoID_18 = [
-    { no: 1, id: "k8vGjREtXIs" }, 
-    { no: 2, id: "kmBMMtMTNrE" }, 
-    { no: 3, id: "gwY8Q-jgaLU" },
+    { no: 1, id: "aPjbzctE9jc" },
+    { no: 2, id: "2UoGnz3jtR0" },
+    { no: 3, id: "56794S-nfGM" }, 
     { no: 4, id: "mfk4dmZ2TUo" }, 
     { no: 5, id: "j6jb4-wX6Tc" },
     { no: 6, id: "qYbV5EY1yxU" },
-    { no: 7, id: "aPjbzctE9jc" },
-    { no: 8, id: "2UoGnz3jtR0" },
-    { no: 9, id: "56794S-nfGM" }, 
+    { no: 7, id: "k8vGjREtXIs" }, 
+    { no: 8, id: "kmBMMtMTNrE" }, 
+    { no: 9, id: "gwY8Q-jgaLU" },
     { no: 10, id : "HLmEC-3QXKw" }, 
 ]
 
