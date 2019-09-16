@@ -17,6 +17,7 @@ header {
     left: 0;
     padding: 10px 100px;
     width: 100%;
+    z-index: 999;
 }
 
 header>div.logo {
