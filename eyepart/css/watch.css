@@ -4,7 +4,7 @@ html, body{
 }
 
 .vdo-border:hover {
-    background: linear-gradient(45deg, #200122, #6f0000);
+    background: linear-gradient(45deg, #500000, #dd1818);
     transform: scale(1.2);
 }
 .vdo-border {
@@ -97,10 +97,14 @@ html, body{
     -webkit-text-fill-color: transparent; */
     text-align: center;
 }
+hr {
+    margin: auto;
+    padding: 1rem;
+}
 
 .separator {
-  margin-top: 25px;
-  margin-bottom: 80px;
+  /* margin-top: 25px; */
+  /* margin-bottom: 80px; */
   border: 0;
 }
 
@@ -137,6 +141,7 @@ html, body{
 .thisyear h1 {
     font-size: 45px;
     text-transform: uppercase;
+    padding-top: 2rem;
 }
 .slider-wrapper h4 {
     font-size: 40px;

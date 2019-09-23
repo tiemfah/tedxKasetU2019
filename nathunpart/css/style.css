@@ -145,7 +145,8 @@ section.white {
     margin-top: 150px;
 }
 
-.container {
+.grid-container {
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -220,4 +221,51 @@ section.white {
     transition: visibility 2s, color 0.5s;
 }
 
-@media screen and (min-width:800px) {}
+/* for responsive */
+
+@media screen and (max-width: 991px) {
+    .grid-container {
+        justify-content: flex-start;
+    }
+    .box-flex {
+        flex-wrap: wrap;
+    }
+    .box {
+        height: 450px;
+        transition: none;
+        background-color: rgba(255, 0, 0, 0.8);
+    }
+
+    .up {
+        margin-bottom: 0px;
+    }
+    
+    .handshake {
+        margin-top: 0px;
+        transition: none;
+    }
+    .raise-hand {
+        margin-top: 35px;
+        transition: none;
+    }
+    .describe {
+        visibility: hidden;
+        transition: none;
+    }
+    .box:hover {
+        background-color: rgba(255, 0, 0, 0.8);
+    }
+    /* on box hover */
+    .box:hover>.handshake {
+        width: 330px;
+        height: 330px;
+    }
+    .box:hover>.raise-hand {
+        width: 260px;
+        height: 260px;
+    }
+    .box:hover>.describe {
+        visibility: hidden;
+        color: white;
+    }
+}
