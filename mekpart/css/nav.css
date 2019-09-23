@@ -18,6 +18,7 @@ header {
     padding: 10px 100px;
     width: 100%;
     z-index: 999;
+    background: var(--pri);
 }
 
 header>div.logo {
@@ -114,16 +115,16 @@ header>div.menu-toggle {
     }
 
     header>nav>ul>li {
-        background: #000;
-        border-top: 1px solid #fff;
+        background: var(--pri);
+        /* border-top: 1px solid #fff; */
     }
 
     header>nav>ul>li>a{
-        color: #fff !important;
+        color: var(--sec) !important;
     }
 
     header>nav>ul>li>a.active {
-        border: 2px solid #fff;
+        border: 2px solid var(--sec);
     }
 
     header>nav>ul>li:last-child {
@@ -131,7 +132,6 @@ header>div.menu-toggle {
         line-height: 19vh;
     }
 }
-
 
 
 section.black{
