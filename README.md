@@ -30,7 +30,7 @@ node index.js
 * i suggest using nodemon when you are developing.
 
 ```
-got to localhost:8100
+go to localhost:8100
 ```
 
 ## Deployment
