@@ -13,7 +13,7 @@ app.get('/watch', (req, res)=>{
 })
 
 app.get('/participate', (req, res)=>{
-    res.render('pages/parti');
+    res.render('pages/participate');
 })
 
 

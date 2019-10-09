@@ -21,7 +21,7 @@ header {
     background: var(--pri);
 }
 
-header>div.logo {
+header>a>div.logo {
     color: var(--sec);
     height: 50px;
     line-height: 50px;
@@ -30,13 +30,13 @@ header>div.logo {
     font-weight: 700;
 }
 
-header>div.logo>svg{
+header>a>div.logo>svg{
     padding-top: 3px;
     width: 300px;
     height: auto;
 }
 
-header> div.logo>svg g#varitate{
+header>a> div.logo>svg g#varitate{
     fill: var(--sec);
 }
 
