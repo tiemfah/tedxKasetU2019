@@ -1,23 +1,53 @@
-## TedxKasetsartU2019
+# Project: TEDxKasetsartU 2019
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+Website repo for TEDxKaset
 
-[![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components)
+## Getting Started
 
-web dev team repo for TEDx KasetsartU 2019.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-# Something Missing?
+### Prerequisites
 
-If you have ideas for something that should be on this page, let us know or open an issue !!
-JDK Don't you dare open an issue
+What things you need to install the software and how to install them
 
-# How to use
-* you need nodeJS
-```bash
+* Node.js
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
 npm install
 ```
-```bash
+
+And then
+
+```
 node index.js
 ```
+* i suggest using nodemon when you are developing.
 
-last update 9 oct 2019.
+```
+got to localhost:8100
+```
+
+## Deployment
+
+- not yet
+
+## Contributing
+
+Go ahead! send in your pull request.
+
+## Authors
+
+* **Sivanat Subpaisarn** - [tiemfah](https://github.com/tiemfah)
+* **Chananchida Fuachai** - [llleyelll](https://github.com/llleyelll)
+* **Thun Thunkijjanukij** - [Klan300](https://github.com/Klan300)
+* **Sirikorn Songsaengthong** - [Sirikonss](https://github.com/Sirikonss)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
