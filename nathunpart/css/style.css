@@ -30,12 +30,14 @@ html, body {
     width: 450px;
     background-color: rgba(160, 160, 160, 0.1);
     border-radius: 20px;
+    border: 1px solid rgba(160, 160, 160, 1);
     transition: background-color 0.4s;
     text-align: center;
 }
 
 .box:hover {
     background-color: rgba(255, 0, 0, 0.8);
+    border: 1px solid rgba(160, 160, 160, 0);
 }
 
 /* on box hover */
@@ -98,25 +100,32 @@ html, body {
         flex-wrap: wrap;
     }
     .box {
-        height: 450px;
+        height: 210px;
+        width: 210px;
         transition: none;
         background-color: rgba(255, 0, 0, 0.8);
+        border: 0px 
     }
 
     .up {
         margin-bottom: 0px;
+        margin-top: 30px;
     }
     
     .handshake {
-        margin-top: 0px;
+        width: 110px;
+        height: 110px;
+        margin-top: 10px; 
         transition: none;
     }
     .raise-hand {
-        margin-top: 35px;
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
         transition: none;
     }
     .describe {
-        visibility: hidden;
+        display: none;
         transition: none;
     }
     .box:hover {
@@ -124,15 +133,23 @@ html, body {
     }
     /* on box hover */
     .box:hover>.handshake {
-        width: 330px;
-        height: 330px;
+        width: 120px;
+        height: 120px;
+        margin-top: 20px; 
     }
     .box:hover>.raise-hand {
-        width: 260px;
-        height: 260px;
+        width: 120px;
+        height: 120px;
+        margin-top: 20px; 
+        
     }
     .box:hover>.describe {
-        visibility: hidden;
+        display: none;
         color: white;
+    }
+
+    .topic {
+        font-size: 23px;
+        margin: 25px 25px 0px 25px;
     }
 }
