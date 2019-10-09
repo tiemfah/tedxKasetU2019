@@ -1,7 +1,10 @@
 # How to use
-(this nav need jquery)
+* you need nodeJS
+```bash
+npm install
+```
+```bash
+node index.js
+```
 
-take whole ``` header``` and import ``` nav.css,nav.js ```
-
-##### issue that i might fix later, love u.
-* it act up in some mobile web browser // (:C)
+last update 9 oct 2019.
