@@ -10,3 +10,14 @@ web dev team repo for TEDx KasetsartU 2019.
 
 If you have ideas for something that should be on this page, let us know or open an issue !!
 JDK Don't you dare open an issue
+
+# How to use
+* you need nodeJS
+```bash
+npm install
+```
+```bash
+node index.js
+```
+
+last update 9 oct 2019.
