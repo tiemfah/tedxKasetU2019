@@ -13,7 +13,7 @@
 
 header {
     position: fixed;
-    top: 10px;
+    top: 0px;
     left: 0;
     padding: 10px 100px;
     width: 100%;
@@ -63,8 +63,7 @@ header>nav>ul>li>a {
 
 header>nav>ul>li>a:hover {
     color: var(--ted-red);
-    background: var(--sec);
-    border: 2px solid var(--sec);
+    transition:         color 0.5s;
 }
 
 header>nav>ul>li>a.active {
