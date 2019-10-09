@@ -12,5 +12,9 @@ app.get('/watch', (req, res)=>{
     res.render('pages/watch');
 })
 
+app.get('/participate', (req, res)=>{
+    res.render('pages/parti');
+})
+
 
 app.listen(8100)
