@@ -8,9 +8,9 @@ app.get('/', (req, res)=>{
     res.render('pages/index');
 })
 
-var server = app.listen(3000, function (){
-    console.log("Calling app.listen's callback function.");
-    var host = server.address().address;
-    var port = server.address().port;
-    console.log('Example app listening at http://%s:%s', host, port);
-  });
+app.get('/watch', (req, res)=>{
+    res.render('pages/watch');
+})
+
+
+app.listen(8100)
