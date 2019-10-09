@@ -43,9 +43,12 @@ Go ahead! send in your pull request.
 
 ## Authors
 
-* **Sivanat Subpaisarn** - [tiemfah](https://github.com/tiemfah)
+alphabet sort YAY!
+
 * **Chananchida Fuachai** - [llleyelll](https://github.com/llleyelll)
 * **Thun Thunkijjanukij** - [Klan300](https://github.com/Klan300)
+* **Sitipat SitipatSurName** - [patdpat](https://github.com/patdpat)
+* **Sivanat Subpaisarn** - [tiemfah](https://github.com/tiemfah)
 * **Sirikorn Songsaengthong** - [Sirikonss](https://github.com/Sirikonss)
 
 ## License
