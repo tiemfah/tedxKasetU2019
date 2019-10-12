@@ -1,12 +1,12 @@
 import Link from 'next/link';
-import LogoImage from '../public/img/ted.png';
+import LogoImage from '../public/img/logo.svg';
 import '../public/css/nav.css';
 
 
 
 
 const NavBar = () => (
-    <header className="pri-bg">
+    <header>
         <Link href="/">
             <a href="/">
                 <div className="logo">
@@ -24,9 +24,6 @@ const NavBar = () => (
                 <li><Link href="/"><a title="index">Ticket</a></Link></li>
             </ul>
         </nav>
-        <div className="menu-toggle">
-            <i className="fa fa-bars"></i>
-        </div>
     </header>
 )
 
