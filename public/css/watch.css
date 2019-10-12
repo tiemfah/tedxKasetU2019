@@ -134,6 +134,10 @@ hr {
   }
 }
 
+.yrTitle {
+    font-weight: 100;
+}
+
 .thisyear {
     color: #e62b1e;
     text-align: center;
