@@ -1,7 +1,5 @@
 import Layout from '../components/Layout'
 
-
-
 const index = () => (
     <Layout>
         <div>

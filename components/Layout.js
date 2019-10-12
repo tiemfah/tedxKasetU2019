@@ -1,6 +1,5 @@
 import NavBar from './nav';
 import Head from 'next/head';
-import '../test.css';
 
 const Layout = (props) => (
     <div>
