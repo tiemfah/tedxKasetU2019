@@ -5,6 +5,7 @@ module.exports = withCSS(withImage({
         return {
             '/': { page: '/' },
             '/watch': { page: '/watch' },
+            '/participate':{page:'/participate'},
         };
     }
 }));
