@@ -30,15 +30,10 @@ header>a>div.logo {
     font-weight: 700;
 }
 
-header>a>div.logo>svg{
-    padding-top: 3px;
-    width: 300px;
-    height: auto;
+header>a>div.logo>img{
+    height: 100%;
 }
 
-header>a> div.logo>svg g#varitate{
-    fill: var(--sec);
-}
 
 header>nav {
     float: right;
