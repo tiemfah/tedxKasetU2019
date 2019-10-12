@@ -2,6 +2,9 @@ import Link from 'next/link';
 import LogoImage from '../public/img/ted.png';
 import '../public/css/nav.css';
 
+
+
+
 const NavBar = () => (
     <header className="pri-bg">
         <Link href="/">

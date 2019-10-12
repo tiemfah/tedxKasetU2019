@@ -12,6 +12,8 @@ const Layout = (props) => (
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
                 integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></link>
             <script src="https://kit.fontawesome.com/21af1254cb.js"></script>
+            <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet" />
+
         </Head>
         <NavBar />
         {props.children}
