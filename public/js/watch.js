@@ -67,7 +67,7 @@ class PlayVDO extends React.Component {
     }
 }
 
-ReactDOM.render(<PlayVDO />, document.getElementById("1"));
+// ReactDOM.render(<PlayVDO />, document.getElementById("1"));
 
 // function playvdo() {
 //     var yr_text = 'yr18';
