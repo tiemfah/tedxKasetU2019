@@ -1,6 +1,5 @@
 import Layout from '../components/Layout'
 import '../public/css/watch.css'
-import '../public/js/watch.js'
 
 const watch = () => (
     <Layout>
@@ -30,10 +29,7 @@ const watch = () => (
             <div className="row mx-auto">
                 <div className="col-md-6 col-lg-4 mx-auto ytbuild">
                     <div className="vdo-border text-center mb-4 p-3">
-                        <div className="yt-thumbnail" id="1">
-                            <img src="https://img.youtube.com/vi/aPjbzctE9jc/mqdefault.jpg" alt=""></img>
-                            <div class="play-btn" onclick={() => playVDO('yr18',1)}></div>
-                        </div>
+                        <div className="yt-thumbnail" id="1"></div>
                         <p className="speakerTopic">ความรัก หรือ ความฝัน</p>
                         <p className="speakerName">รัณนภันต์ ยั่งยืนพูนชัย</p>
                     </div>
@@ -130,7 +126,7 @@ const watch = () => (
             </div>
         </div>
 
-        <section id="yr17" ref="yr17">
+        <section id="yr17">
             <div className="row mx-auto">
                 <div className="col-md-6 col-lg-4 mx-auto ytbuild">
                     <div className="vdo-border text-center mb-4 p-3">
@@ -213,13 +209,6 @@ const watch = () => (
                 </div>
             </div>
         </section>
-
-        {/* jquery js
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        bootstrap js
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        watch page js
-        <script src="js/watch.js"></script> */}
     </Layout>
 );
 
