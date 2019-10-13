@@ -34,18 +34,8 @@ const NavBar = () => (
           </Link>
         </li>
         <li>
-          <Link href="/">
-            <a title="index">Event</a>
-          </Link>
-        </li>
-        <li>
           <Link href="/contact">
             <a title="contact">Contact</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/">
-            <a title="index">Ticket</a>
           </Link>
         </li>
       </ul>
