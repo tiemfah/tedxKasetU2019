@@ -100,3 +100,7 @@ typings/
 .tern-port
 
 .DS_Store
+
+out
+
+settings.json
