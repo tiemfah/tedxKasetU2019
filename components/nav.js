@@ -21,7 +21,6 @@ const NavBar = () => (
                 <li><Link href="/watch"><a title="watch">Watch</a></Link></li>
                 <li><Link href="/participate"><a title="participate">Team</a></Link></li>
                 <li><Link href="/"><a title="contact">contact</a></Link></li>
-                <li><Link href="/"><a title="ticket">Ticket</a></Link></li>
             </ul>
         </nav>
     </header>

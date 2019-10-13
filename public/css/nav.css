@@ -46,8 +46,9 @@ header ul {
 
 
 header ul li{
-    padding-left: 5px;
-    border-left: 2px solid var(--ted-red);
+    padding: 0 calc(100vw/42);
+    padding-left: calc(100vw/21);
+    border-left: 3px solid var(--ted-red);
 }
 
 header ul li:first-child{
