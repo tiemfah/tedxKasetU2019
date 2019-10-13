@@ -37,18 +37,28 @@ header ul {
     list-style: none;
     display: flex;
     width: 100vw;
-    height: 50px;
+    height: 45px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding:5px 0;
 }
 
+
+header ul li{
+    padding-left: 5px;
+    border-left: 2px solid var(--ted-red);
+}
+
+header ul li:first-child{
+    border: none;
+}
+
 header ul li a{
     color: var(--sec);
     text-transform: uppercase;
-    font-size: 0.8rem;
-    font-weight: 900;
+    font-size: 0.6rem;
+    font-weight: 700;
 }
 
 header ul li a:hover{
@@ -57,12 +67,19 @@ header ul li a:hover{
     transition: color 0.6s;
 }
 
-@media (min-width:500px){
+.bot-push{
+    height: 45px;
+}
+.top-push{
+    height: 0;
+}
+
+@media (min-width:1000px){
     header{
         bottom: initial;
         top:0;
         height: auto;
-        padding: 1% 10%;
+        padding: 0.5% 10%;
         display: flex;
         flex-flow: row;
         justify-content: space-between;
@@ -78,7 +95,19 @@ header ul li a:hover{
         width: 40vw;
     }
 
+    header ul li{
+        border:none;
+    }
+
     header ul li a{
         font-size: 1rem;
+    }
+
+    .bot-push{
+        height: 0;
+    }
+
+    .top-push{
+        height: 70px;
     }
 }
