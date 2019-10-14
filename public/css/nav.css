@@ -58,12 +58,14 @@ header>nav>ul>li>a {
 
 header>nav>ul>li>a:hover {
     color: var(--ted-red);
-    transition:         color 0.5s;
+    transition: color 0.5s;
+    text-decoration: none;
 }
 
 header>nav>ul>li>a.active {
     padding: 3px;
     border: 2px solid var(--sec);
+    color: var(--ted-red);
 }
 
 header>div.menu-toggle {
