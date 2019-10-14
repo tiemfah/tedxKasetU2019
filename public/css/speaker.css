@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Prompt&display=swap');
 
 body{
-    background: #eeeeee;
+    background: #dddddd;
     font-family: 'Prompt';
 }
 
@@ -18,11 +18,20 @@ body{
     height: 500px;
     background: white;
     margin: 3% 2%;
-    border-radius: 2%;
-    box-shadow: 2px 4px 17px 0px rgba(255,255,255,1);
     text-align: center;
     padding: 1% 2%;
 }
+
+.border-box{
+    border: 10px solid;
+    border-image-source: linear-gradient(45deg, gray, black);
+    border-image-slice: 1;
+}
+
+.red-yellow{
+    border-image-source: linear-gradient(45deg, red,purple);
+}
+
 
 .speaker-portrait{
     width: 200px;
@@ -42,4 +51,9 @@ body{
 
 .speaker-desc {
     font-family: 'Prompt';
+}
+
+.speaker-box a img {
+    width: 20px;
+    height: 20px;
 }

@@ -22,17 +22,19 @@ import '../public/css/speaker.css';
 // Society
 // Identity
 // Community
+// <div>Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
 const index = () => (
     <Layout>
         <body>
             <div className="hall">
-                <div className="speaker-box">
+                <div className="speaker-box border-box red-yellow">
                     <img className="speaker-portrait" src="https://source.unsplash.com/300x300"></img>
                     <h3 className="speaker-name">อ.ดารณี อุทัยรัตนกิจ</h3>
                     <p className="speaker-type">education</p>
                     <hr></hr>
                     <p className="speaker-desc">พูดเรื่องเด็กออทิสติกค่ะ เป็นอดีตอ.ใหญ่สาธิตเกษตร สาธิตเกษตรเป็นรร.แรกๆที่รับเด็กออทิสติกมาเรียนร่วมกับเด็กปกติ </p>
-                    <a href='https://www.the101.world/daranee-interview/'>link</a>
+                    <a href='https://www.the101.world/daranee-interview/'><img src="https://image.flaticon.com/icons/svg/126/126481.svg"></img></a>
                 </div>
                 <div className="speaker-box">
                     <img className="speaker-portrait" src="https://source.unsplash.com/300x300"></img>
@@ -65,7 +67,7 @@ https://adaymagazine.com/bodhi-theater/</p>
                     <p className="speaker-desc">นักข่าว PPTV ทำรายการ รอบโลก BY กรุณา บัวคำศรี</p>
                 </div>
                 <div className="speaker-box">
-                    <img className="speaker-portrait"  src="https://source.unsplash.com/300x300"></img>
+                    <img className="speaker-portrait" src="https://source.unsplash.com/300x300"></img>
                     <h3 className="speaker-name">คุณเบล ก้าวคนละก้าว</h3>
                     <p className="speaker-type"></p>
                     <hr></hr>
@@ -96,7 +98,7 @@ https://adaymagazine.com/bodhi-theater/</p>
                 </div>
             </div>
         </body>
-    </Layout>
+        </Layout>
 );
 
 export default index;
