@@ -110,7 +110,7 @@ html, body {
 
 /* for responsive */
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 661px) {
     .grid-container {
         justify-content: flex-start;
     }
