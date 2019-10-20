@@ -1,0 +1,14 @@
+html, body {
+    background: black;
+    /* background: linear-gradient(#200122, #6f0000); */
+}
+
+
+.block-sponser {
+    margin-top: 30px;
+}
+
+.sponser {
+width: 20%;
+height: 20%;
+}
