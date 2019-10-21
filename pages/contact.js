@@ -1,81 +1,195 @@
+import React, { Component } from 'react'
 import Layout from "../components/Layout";
 import "../public/css/contact.css";
-import { Script } from "vm";
-const contact = () => (
-  <Layout>
-    <div className="contact">
-      <div style={{ background: "white" }}>
-        <h1 className="section__headline">FAQs</h1>
-        <h2 className="c-faqs__headline">About the TEDxKasetsartU </h2>
-        <ul className="c-faqs">
-          <li className="c-faq c-faq--active">
-            <span className="c-faq__title">K</span>
-            <div className="c-faq__answer">K</div>
-          </li>
-          <li className="c-faq">
-            <span className="c-faq__title">F</span>
-            <div className="c-faq__answer">F</div>
-          </li>
-          <li className="c-faq">
-            <span className="c-faq__title">S</span>
-            <div className="c-faq__answer">S</div>
-          </li>
-        </ul>
-        <h2 className="c-faqs__headline">About the Events</h2>
-        <ul className="c-faqs">
-          <li className="c-faq">
-            <span className="c-faq__title">When is the conference?</span>
-            <div className="c-faq__answer">
-              The conference will occur on December 1st, 2019.
-            </div>
-          </li>
-          <li className="c-faq">
-            <span className="c-faq__title">Where is the conference?</span>
-            <div className="c-faq__answer">
-              The conference will take place at Office of Agricultural Museum
-              and Culture within Kasetsart University in Bangkok, Thailand.
-            </div>
-          </li>
-          <li className="c-faq">
-            <span className="c-faq__title">
-              Do I have to a buy ticket to attend the conference?
-            </span>
-            <div className="c-faq__answer">
-              Yes, a ticket is necessary to attend the conference. There is a
-              limited number of seats, and tickets typically sell out within a
-              few days.
-            </div>
-          </li>
-          <li className="c-faq">
-            <span className="c-faq__title">Where is the ticket seller?</span>
-            <div className="c-faq__answer">
-              You can redirect to the seller by
-              <a href="#" style={{ color: "red" }}>
-                CLICK HERE
-              </a>
-            </div>
-          </li>
-          <li className="c-faq c-faq">
-            <span className="c-faq__title">NO</span>
-            <div className="c-faq__answer">NO</div>
-          </li>
-        </ul>
-        <h2 className="c-faqs__headline">Contact Us !</h2>
-        <ul className="c-faqs">
-          <li className="c-faq">
-            <span className="c-faq__title">FACEBOOK</span>
-            <div className="c-faq__answer">FACEBOOK</div>
-          </li>
-          <li className="c-faq">
-            <span className="c-faq__title">SPONSOR</span>
-            <div className="c-faq__answer">SPONSOR</div>
-          </li>
-        </ul>
-      </div>
-    </div>
 
-    <script src="js/contact.js"></script>
-  </Layout>
-);
+// const contact = () => {
+
+//   return (
+//     <Layout>
+//       <div className="contact">
+//         <div style={{ background: "white" }}>
+//           <h1 className="section__headline">FAQs</h1>
+//           <h2 className="c-faqs__headline">About the TEDxKasetsartU </h2>
+//           <ul className="c-faqs">
+//             <li className={this.state.q2 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+//               <span className="c-faq__title" name="q3">K</span>
+//               <div className="c-faq__answer">K</div>
+//             </li>
+//             <li className={this.state.q2 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+//               <span className="c-faq__title" name="q3">F</span>
+//               <div className="c-faq__answer">F</div>
+//             </li>
+//             <li className={this.state.q2 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+//               <span className="c-faq__title" name="q3">S</span>
+//               <div className="c-faq__answer">S</div>
+//             </li>
+//           </ul>
+//           <h2 className="c-faqs__headline">About the Events</h2>
+//           <ul className="c-faqs">
+//             <li className={this.state.q2 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+//               <span className="c-faq__title" name="q3">When is the conference?</span>
+//               <div className="c-faq__answer">
+//                 The conference will occur on December 1st, 2019.
+//             </div>
+//             </li>
+//             <li className={this.state.q2 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+//               <span className="c-faq__title" name="q3">Where is the conference?</span>
+//               <div className="c-faq__answer">
+//                 The conference will take place at Office of Agricultural Museum
+//                 and Culture within Kasetsart University in Bangkok, Thailand.
+//             </div>
+//             </li>
+//             <li className={this.state.q2 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+//               <span className="c-faq__title" name="q3">
+//                 Do I have to a buy ticket to attend the conference?
+//             </span>
+//               <div className="c-faq__answer">
+//                 Yes, a ticket is necessary to attend the conference. There is a
+//                 limited number of seats, and tickets typically sell out within a
+//                 few days.
+//             </div>
+//             </li>
+//             <li className={this.state.q2 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+//               <span className="c-faq__title" name="q3">Where is the ticket seller?</span>
+//               <div className="c-faq__answer">
+//                 You can redirect to the seller by
+//               <a href="#" style={{ color: "red" }}>
+//                   CLICK HERE
+//               </a>
+//               </div>
+//             </li>
+//             <li className={this.state.q2 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+//               <span className="c-faq__title" name="q3">NO</span>
+//               <div className="c-faq__answer">NO</div>
+//             </li>
+//           </ul>
+//           <h2 className="c-faqs__headline">Contact Us !</h2>
+//           <ul className="c-faqs">
+//             <li className={this.state.q2 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+//               <span className="c-faq__title" name="q3">FACEBOOK</span>
+//               <div className="c-faq__answer">FACEBOOK</div>
+//             </li>
+//             <li className={this.state.q2 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+//               <span className="c-faq__title" name="q3">SPONSOR</span>
+//               <div className="c-faq__answer">SPONSOR</div>
+//             </li>
+//           </ul>
+//         </div>
+//       </div>
+
+//       <script src="static/c.js"></script>
+//     </Layout>
+//   );
+// }
+
+class contact extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      q1: true,
+      q2: false,
+      q3:false,
+      q4:false,
+      q5:false,
+      q6:false,
+      q7:false,
+      q8:false,
+      q9:false,
+      q10:false,
+    }
+
+    this.doClick = this.doClick.bind(this);
+  }
+
+  doClick(e) {
+    const newState = this.state;
+    Object.keys(newState).forEach(key => {
+      newState[key] = false
+    });
+    console.log(e.target.getAttribute('name'));
+    
+    newState[e.target.getAttribute('name')] = true;
+    
+    this.setState(newState);
+  }
+
+  render() {
+    return (
+      <Layout>
+        <div className="contact">
+          <div style={{ background: "white" }}>
+            <h1 className="section__headline">FAQs</h1>
+            <h2 className="c-faqs__headline">About the TEDxKasetsartU </h2>
+            <ul className="c-faqs">
+              <li className={this.state.q1 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+                <span className="c-faq__title" name="q1">K</span>
+                <div className="c-faq__answer">K</div>
+              </li>
+              <li className={this.state.q2 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+                <span className="c-faq__title" name="q2">F</span>
+                <div className="c-faq__answer">F</div>
+              </li>
+              <li className={this.state.q3 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+                <span className="c-faq__title" name="q3">S</span>
+                <div className="c-faq__answer">S</div>
+              </li>
+            </ul>
+            <h2 className="c-faqs__headline">About the Events</h2>
+            <ul className="c-faqs">
+              <li className={this.state.q4 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+                <span className="c-faq__title" name="q4">When is the conference?</span>
+                <div className="c-faq__answer">
+                  The conference will occur on December 1st, 2019.
+              </div>
+              </li>
+              <li className={this.state.q5 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+                <span className="c-faq__title" name="q5">Where is the conference?</span>
+                <div className="c-faq__answer">
+                  The conference will take place at Office of Agricultural Museum
+                  and Culture within Kasetsart University in Bangkok, Thailand.
+              </div>
+              </li>
+              <li className={this.state.q6 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+                <span className="c-faq__title" name="q6">
+                  Do I have to a buy ticket to attend the conference?
+              </span>
+                <div className="c-faq__answer">
+                  Yes, a ticket is necessary to attend the conference. There is a
+                  limited number of seats, and tickets typically sell out within a
+                  few days.
+              </div>
+              </li>
+              <li className={this.state.q7 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+                <span className="c-faq__title" name="q7">Where is the ticket seller?</span>
+                <div className="c-faq__answer">
+                  You can redirect to the seller by
+                <a href="#" style={{ color: "red" }}>
+                    CLICK HERE
+                </a>
+                </div>
+              </li>
+              <li className={this.state.q8 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+                <span className="c-faq__title" name="q8">NO</span>
+                <div className="c-faq__answer">NO</div>
+              </li>
+            </ul>
+            <h2 className="c-faqs__headline">Contact Us !</h2>
+            <ul className="c-faqs">
+              <li className={this.state.q9 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+                <span className="c-faq__title" name="q9">FACEBOOK</span>
+                <div className="c-faq__answer">FACEBOOK</div>
+              </li>
+              <li className={this.state.q10 ? "c-faq--active": "c-faq"} onClick={this.doClick}>
+                <span className="c-faq__title" name="q10">SPONSOR</span>
+                <div className="c-faq__answer">SPONSOR</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </Layout>
+    )
+  }
+}
 
 export default contact;
