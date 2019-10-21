@@ -20,7 +20,7 @@ const NavBar = () => (
                 <li><Link href="/partner"><a title="partner">Partner</a></Link></li>
                 <li><Link href="/watch"><a title="watch">Watch</a></Link></li>
                 <li><Link href="/participate"><a title="participate">Team</a></Link></li>
-                <li><Link href="/"><a title="contact">contact</a></Link></li>
+                <li><Link href="/contact"><a title="contact">contact</a></Link></li>
             </ul>
         </nav>
     </header>

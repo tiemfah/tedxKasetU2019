@@ -26,7 +26,7 @@ import '../public/css/speaker.css';
 
 const index = () => (
     <Layout>
-        <body>
+        <div>
             <div className="hall">
                 <div className="speaker-box border-box red-yellow">
                     <img className="speaker-portrait" src="https://source.unsplash.com/300x300"></img>
@@ -97,8 +97,8 @@ https://adaymagazine.com/bodhi-theater/</p>
                     <a href="https://drive.google.com/a/ku.th/file/d/1ZWbfZSWtIOTCwrBpT9xTg6Dxl1pEOFv2/view?usp=drivesdk"></a>
                 </div>
             </div>
-        </body>
-        </Layout>
+        </div>
+    </Layout>
 );
 
 export default index;

@@ -1,59 +1,58 @@
-@import url('https://fonts.googleapis.com/css?family=Prompt&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Prompt&display=swap");
 
-body{
+div.Speaker {
     background: #dddddd;
     font-family: 'Prompt';
 }
 
 .hall {
-    width: 80vw;
-    margin: 0 10%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+  width: 90vw;
+  margin: 0 5%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .speaker-box {
-    width: 350px;
-    height: 500px;
-    background: white;
-    margin: 3% 2%;
-    text-align: center;
-    padding: 1% 2%;
+  width: 350px;
+  height: 500px;
+  background: white;
+  margin: 3% 2%;
+  text-align: center;
+  padding: 1% 2%;
 }
 
-.border-box{
-    border: 10px solid;
-    border-image-source: linear-gradient(45deg, gray, black);
-    border-image-slice: 1;
+.border-box {
+  border: 10px solid;
+  border-image-source: linear-gradient(45deg, gray, black);
+  border-image-slice: 1;
 }
 
-.red-yellow{
-    border-image-source: linear-gradient(45deg, red,purple);
+.red-yellow {
+  border-image-source: linear-gradient(45deg, red, purple);
 }
 
-
-.speaker-portrait{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-bottom: 3%;
+.speaker-portrait {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 3%;
 }
 
 .speaker-name {
-    font-family: 'Prompt';
+  font-family: "Prompt";
 }
 
-.speaker-type{
-    text-transform: capitalize;
-    opacity: 0.5;
+.speaker-type {
+  text-transform: capitalize;
+  opacity: 0.5;
 }
 
 .speaker-desc {
-    font-family: 'Prompt';
+  font-family: "Prompt";
 }
 
 .speaker-box a img {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
