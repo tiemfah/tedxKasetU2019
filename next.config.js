@@ -8,7 +8,7 @@ module.exports = withCSS(
         "/watch": { page: "/watch" },
         "/participate": { page: "/participate" },
         "/speaker": { page: "/speaker" },
-        "/contact": { page: "/contact" }
+        "/contact": { page: "/contact" },
       };
     }
   })
