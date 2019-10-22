@@ -108,10 +108,10 @@ class contact extends Component {
                 onClick={this.doClick}
               >
                 <span className="c-faq__title" name="q4">
-                  When is the conference ?
+                  TEDxKasetsartU จัดเมื่อไหร่ ?
                 </span>
                 <div className="c-faq__answer">
-                  The conference will occur on December 1st, 2019.
+                  TEDxKasetsartU จัดวันที่ 1 ธันวาคม 2563
                 </div>
               </li>
               <li
@@ -119,12 +119,19 @@ class contact extends Component {
                 onClick={this.doClick}
               >
                 <span className="c-faq__title" name="q5">
-                  Where is the conference ?
+                  TEDxKasetsartU จัดขึ้นที่ไหน ?
                 </span>
                 <div className="c-faq__answer">
-                  The conference will take place at Office of Agricultural
-                  Museum and Culture within Kasetsart University in Bangkok,
-                  Thailand.
+                  TEDxKasetsartU จัดขึ้นที่{" "}
+                  <a
+                    href="https://www.egov.go.th/th/e-government-service/227//"
+                    style={{ color: "red" }}
+                  >
+                    {" "}
+                    สำนักพิพิธภัณฑ์และวัฒนธรรมการเกษตร, มหาวิทยาลัยเกษตรศาสตร์
+                    วิทยาเขตบางเขน
+                  </a>
+                  .
                 </div>
               </li>
               <li
@@ -132,12 +139,15 @@ class contact extends Component {
                 onClick={this.doClick}
               >
                 <span className="c-faq__title" name="q6">
-                  Do I have to a buy ticket to attend the conference ?
+                  จำเป็นหรือไม่ที่จะต้องซื้อบัตร TEDxKasetsartU ?
                 </span>
                 <div className="c-faq__answer">
-                  Yes, a ticket is necessary to attend the conference. There is
-                  a limited number of seats, and tickets typically sell out
-                  within a few days.
+                  บัตรเข้างานจำเป็นที่จะต้องใช้เพื่อเข้าชมงาน TEDxKasetsartU
+                  อย่าลืมที่จะซื้อบัตรที่{" "}
+                  <a href="#" style={{ color: "red" }}>
+                    {" "}
+                    CLICK HERE
+                  </a>
                 </div>
               </li>
               <li
@@ -145,10 +155,10 @@ class contact extends Component {
                 onClick={this.doClick}
               >
                 <span className="c-faq__title" name="q7">
-                  Where to buy the ticket ?
+                  ซื้อบัตร TEDxKasetsartU ได้ที่ไหน ?
                 </span>
                 <div className="c-faq__answer">
-                  You can redirect to the seller by
+                  สามารถซื้อบัตรเข้างานได้ที่นี่
                   <a href="#" style={{ color: "red" }}>
                     {" "}
                     CLICK HERE
