@@ -110,9 +110,9 @@ html, body {
 
 /* for responsive */
 
-@media screen and (max-width: 661px) {
+@media screen and (max-width: 1000px) {
     .grid-container {
-        justify-content: flex-start;
+        justify-content: center;
     }
     .box-flex {
         flex-wrap: wrap;
@@ -126,8 +126,7 @@ html, body {
     }
 
     .up {
-        margin-bottom: 0px;
-        margin-top: 30px;
+        margin-top: 50px;
     }
     
     .handshake {
