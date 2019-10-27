@@ -91,10 +91,6 @@ html, body{
 .secTitle h1 {
     font-size: 60px;
     color: white;
-    /* font-weight: 400;
-    background: -webkit-linear-gradient(#200122, #6f0000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
     text-align: center;
 }
 hr {

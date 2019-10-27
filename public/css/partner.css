@@ -12,3 +12,43 @@ html, body {
 width: 20%;
 height: 20%;
 }
+
+.spacing {
+    height: 140px;
+}
+
+.secTitle h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+hr {
+    margin: auto;
+    padding: 1rem;
+}
+
+.separate--line {
+    border: 0;
+    border-bottom: 1px solid #dd1818;
+    width: 0;
+    -webkit-animation: separator-len 2s ease-out forwards;
+            animation: separator-len 2s ease-out forwards;
+}
+
+@-webkit-keyframes separator-len {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 20%;
+    }
+}
+
+@keyframes separator-len {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 20%;
+    }
+}

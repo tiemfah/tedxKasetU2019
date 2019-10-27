@@ -9,12 +9,20 @@ import '../public/css/partner.css';
 
 const partner = () => (
     <Layout>
+        <div className="spacing"></div>
+
+        {/* Page title */}
+        <div className="secTitle">
+            <h1 style={{ fontWeight: '300' }}>PARTNERS</h1>
+            <hr className="separate separate--line" />
+        </div>
+
         <div className="block-sponser">
-            <img src={AisImage} alt='partner' className="sponser"/>
-            <img src={ElecImage} alt='partner' className="sponser"/>
-            <img src={EngImage} alt='partner' className="sponser"/>
-            <img src={OldEngImage} alt='partner' className="sponser"/>
-            <img src={OsotImage} alt='partner' className="sponser"/>
+            <img src={AisImage} alt='partner' className="sponser" />
+            <img src={ElecImage} alt='partner' className="sponser" />
+            <img src={EngImage} alt='partner' className="sponser" />
+            <img src={OldEngImage} alt='partner' className="sponser" />
+            <img src={OsotImage} alt='partner' className="sponser" />
         </div>
     </Layout>
 );
