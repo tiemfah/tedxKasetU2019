@@ -80,7 +80,7 @@ class watch extends Component {
 
     render() {
         return (
-            <Layout> 
+            <Layout isWhiteNav={true}> 
                 <div className="spacing"></div>
 
                 {/* Page title */}
