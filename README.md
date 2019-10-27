@@ -1,4 +1,5 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/113aa063-1948-495d-851a-5690c90c38c0/deploy-status)](https://app.netlify.com/sites/competent-bassi-82f79f/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/113aa063-1948-495d-851a-5690c90c38c0/deploy-status)](https://app.netlify.com/sites/competent-bassi-82f79f/deploys)---[link](https://competent-bassi-82f79f.netlify.com/)
+
 
 # Project: TEDxKasetsartU 2019
 
