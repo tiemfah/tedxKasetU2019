@@ -28,7 +28,6 @@ const Layout = (props) => (
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
                 integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossOrigin="anonymous"></link>
             <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
-            <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet"></link>
         </Head>
 
         <NavBar isWhiteNav={props.isWhiteNav} />

@@ -1,5 +1,6 @@
 import Layout from '../components/Layout'
 import '../public/css/speaker.css';
+import test from '../public/img/speaker/testport.jpg';
 
 
 // SPEAKER TYPE
@@ -25,11 +26,11 @@ import '../public/css/speaker.css';
 // <div>Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 const index = () => (
-    <Layout>
-        <div>
+    <Layout isWhiteNav={true}>
+        <div className="small-root">
             <div className="hall">
-                <div className="speaker-box border-box red-yellow">
-                    <img className="speaker-portrait" src="https://source.unsplash.com/300x300"></img>
+                <div className="speaker-box">
+                    <img className="speaker-portrait" src={test}></img>
                     <h3 className="speaker-name">อ.ดารณี อุทัยรัตนกิจ</h3>
                     <p className="speaker-type">education</p>
                     <hr></hr>

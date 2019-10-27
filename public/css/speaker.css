@@ -1,8 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Prompt&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
 
 div.Speaker {
-    background: #dddddd;
-    font-family: 'Prompt';
+  background: #dddddd;
+  font-family: "Kanit";
+}
+div.small-root {
+  background: white;
 }
 
 .hall {
@@ -11,45 +14,47 @@ div.Speaker {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  font-family: 'Kanit', sans-serif;
 }
 
 .speaker-box {
   width: 350px;
-  height: 500px;
+  height: 600px;
   background: white;
   margin: 3% 2%;
   text-align: center;
-  padding: 1% 2%;
+  padding: 0% 0%;
+  box-shadow: 6px 4px 19px 0px rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+  font-family: 'Kanit', sans-serif;
 }
 
-.border-box {
-  border: 10px solid;
-  border-image-source: linear-gradient(45deg, gray, black);
-  border-image-slice: 1;
-}
-
-.red-yellow {
-  border-image-source: linear-gradient(45deg, red, purple);
-}
 
 .speaker-portrait {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin-bottom: 3%;
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  position: relative;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  overflow: hidden;
 }
 
-.speaker-name {
-  font-family: "Prompt";
+.speaker-name{
+  padding-top: 6%;
+  font-family: 'Kanit', sans-serif;
 }
+
 
 .speaker-type {
   text-transform: capitalize;
   opacity: 0.5;
+  font-family: 'Kanit', sans-serif;
 }
 
-.speaker-desc {
-  font-family: "Prompt";
+.speaker-desc{
+  padding: 0 7%;
+  font-family: 'Kanit', sans-serif;
 }
 
 .speaker-box a img {
