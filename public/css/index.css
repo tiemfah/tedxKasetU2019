@@ -1,65 +1,26 @@
-body{
-    background: #000;
-}
-section.black{
-    margin-top : 3rem;
-    /* height: 100vh; */
-    background: #000;
-    /* background-image: url('https://images.pexels.com/photos/325044/pexels-photo-325044.jpeg'); */
-    background-size: cover;
-}
-section.white{
-    margin: 0 ;
-    margin-top: 0 ;
-    /* height: 200vh; */
-    background:black;
-    text-align: center ;
-}
-video {
-    max-width: 100%;
-    height: auto;
-  }
-
-  @media screen and  (max-width: 700 px) {
-    
-    .front {
-        filter:opacity(100%);
-        align-content: center ;
-        left : 0% ;
-        height: auto ;
-        width: 50% ;
-        float: left ;
-        position: absolute; 
-    }
-
-    .back {
-        height:auto;
-        width: 50%;
-    }
-
-  }
-
-.front {
-    /* margin-top : 8em ;  */
-    filter:opacity(100%);
-    top : 10vh  ;
-    align-content: center ;
-    left : 0% ;
-    /* height: auto ; */
-    width: 180vh ;
-    float: left ;
-    position: absolute; 
+body {
+    background:white ;
 }
 
+section.black {
+    background: rgb(255, 255, 255) ;
+    margin: 0px ;
+}
 
 .back {
-    /* filter:opacity(100%); */
-    /* padding-top: 3% ; */
-    height:auto;
-    width: 158vh;
-    /* border:5px solid blue; */
+    position: absolute;
+    width : 100% ;
+    height : auto ; 
+    z-index: 1 ;
 }
 
+.front {
+    position: absolute;
+    width : 100% ;
+    height : auto ;
+    z-index: 3 ;
+ 
+} 
 
 .container{
     text-align: center ;
@@ -74,15 +35,15 @@ video {
     font-family: 'Kanit', sans-serif;
     padding-bottom: 3rem ;
     text-align: center ;
-    color : white;
+    color : black ;
     display: block ;
 }
 
 
 .text1 {
-    /* background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1);
+    background: linear-gradient(90deg, rgba(237,2,141,1) 30%, rgba(253,241,0,1) 40%, rgba(0,172,238,1) 60%) ;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+    -webkit-text-fill-color: transparent;
     width: 100% ;
     font-size: 80px ;
     font-weight: 100 ;
@@ -99,6 +60,9 @@ video {
 } */
 
 .text2 {
+    background: linear-gradient(90deg, rgba(237,2,141,1) 30%, rgba(253,241,0,1) 40%, rgba(0,172,238,1) 60%) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     width: 100% ;
     font-size: 80px ;
     font-weight: 100 ;
@@ -108,7 +72,7 @@ video {
     padding-bottom : 0px;
 
 }
-
+/* 
 @keyframes text {
     0%{
         color:black ;
@@ -125,7 +89,7 @@ video {
         margin-bottom: -10px ;
 
     }
-}
+} */
 
 .left_col {
     border-style: solid;
@@ -162,19 +126,20 @@ video {
 
 #whatistedx {
     border-radius: 2em ;
-    background: #e62b1e8c ;
+    background: #fdf100 ;
     color: rgb(255, 255, 255) ;
     padding: 4em;
 }
 #whatistedx p{
     font-family: 'Kanit', sans-serif;
     font-size: 20px;
+    
 }
 
 
 #TEDxKU {
     border-radius: 2em ;
-    background: #e62b1e8c ;
+    background: #e62b1e ;
     color: rgb(255, 255, 255) ;
     padding: 3rem;
     margin-bottom: 20vh ;
@@ -183,5 +148,6 @@ video {
     font-family: 'Kanit', sans-serif;
     font-size: 20px;
 }
+
 
 
