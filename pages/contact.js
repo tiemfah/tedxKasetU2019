@@ -172,7 +172,9 @@ class contact extends Component {
                 <span className="c-faq__title" name="q8">
                   ระยะเวลาที่บัตรจำหน่ายเร็วหรือไม่ ?
                 </span>
-                <div className="c-faq__answer">เร็วโคตร</div>
+                <div className="c-faq__answer">
+                  โดยมากบัตรจะจำหน่ายหมด 1 อาทิตย์ก่อนวันงาน
+                </div>
               </li>
             </ul>
             <h1 className="section__headline">Contact Us</h1>
