@@ -85,7 +85,7 @@ html, body{
 }
 
 .spacing {
-    height: 140px;
+    height: 100px;
 }
 
 .secTitle h1 {
@@ -148,7 +148,6 @@ hr {
     margin-right: -5px;;
     text-align: center !important;
     overflow: hidden;
-    /* position: relative; */
     height: 40px;
     color: #e62b1e;
     margin-bottom: 50px;
@@ -162,9 +161,6 @@ hr {
     position: relative;
     white-space: nowrap;
     justify-content: center;
-    /* top: 0;
-    left: 0; */
-    /* -webkit-animation-iteration-count: infinite; */
 }
 
 #year17 span {
