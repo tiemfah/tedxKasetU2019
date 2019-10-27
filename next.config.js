@@ -4,7 +4,7 @@ module.exports = withCSS(
   withImage({
     exportPathMap: function() {
       return {
-        "/": { page: "/" },
+        "/": { page: "/index" },
         "/watch": { page: "/watch" },
         "/participate": { page: "/participate" },
         "/speaker": { page: "/speaker" },
