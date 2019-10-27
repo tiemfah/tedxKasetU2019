@@ -106,9 +106,11 @@ header ul li a:hover{
 
     .bot-push{
         height: 0;
+        background: var(--pri);
     }
 
     .top-push{
         height: 70px;
+        background: var(--pri);
     }
 }

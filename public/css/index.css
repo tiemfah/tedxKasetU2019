@@ -1,13 +1,23 @@
-body {
-    background:white ;
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
+body{
+    background: white;
 }
 
 section.black {
     background: rgb(255, 255, 255) ;
     margin: 0px ;
 }
+section.white {
+    position: relative;
+    width: 100% ;
+    
+}
 
 .back {
+    /* filter: grayscale(100%) ; */
+    filter: brightness(150%);
+    background : rgba(255, 255, 255, 0.452) ;
     position: absolute;
     width : 100% ;
     height : auto ; 
@@ -16,24 +26,56 @@ section.black {
 
 .front {
     position: absolute;
+    
     width : 100% ;
     height : auto ;
     z-index: 3 ;
+    animation: jackInTheBox 3s  1 ;
  
 } 
 
+@keyframes jackInTheBox {
+    from {
+      opacity: 0;
+      -webkit-transform: scale(0.1) rotate(30deg);
+      transform: scale(0.1) rotate(30deg);
+      -webkit-transform-origin: center bottom;
+      transform-origin: center bottom;
+    }
+  
+    50% {
+      -webkit-transform: rotate(-10deg);
+      transform: rotate(-10deg);
+    }
+  
+    70% {
+      -webkit-transform: rotate(3deg);
+      transform: rotate(3deg);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+
 .container{
+    position: absolute;
+    top : 900px ;
+    left :0px ;
+    right : 0px;
+    bottom : 0px ;
+    z-index: 4;
     text-align: center ;
-    position: absolute ;
-    top : 120% ;
-    left: 10%;
     width : 100%;
 }
 
 
 .container span{
+    top: 20% ;
     font-family: 'Kanit', sans-serif;
-    padding-bottom: 3rem ;
+    padding-bottom: 1em ;
     text-align: center ;
     color : black ;
     display: block ;
@@ -41,10 +83,12 @@ section.black {
 
 
 .text1 {
-    background: linear-gradient(90deg, rgba(237,2,141,1) 30%, rgba(253,241,0,1) 40%, rgba(0,172,238,1) 60%) ;
+    
+    /* background: linear-gradient(90deg, rgba(237,2,141,1) 30%, rgba(253,241,0,1) 40%, rgba(0,172,238,1) 60%) ;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    width: 100% ;
+    -webkit-text-fill-color: transparent; */
+    color: black ;
+    width: auto ;
     font-size: 80px ;
     font-weight: 100 ;
     letter-spacing: 2px ;
@@ -53,21 +97,17 @@ section.black {
     padding-bottom : 0px;
     animation: text 3s 1 ;
 }
-/* 
-.text1.animateMe{
-    animation: text 3s 1 ;
-
-} */
 
 .text2 {
-    background: linear-gradient(90deg, rgba(237,2,141,1) 30%, rgba(253,241,0,1) 40%, rgba(0,172,238,1) 60%) ;
+    /* background: linear-gradient(90deg, rgba(237,2,141,1) 30%, rgba(253,241,0,1) 40%, rgba(0,172,238,1) 60%) ;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    width: 100% ;
+    -webkit-text-fill-color: transparent; */
+    color: black ;
+    width: auto ;
     font-size: 80px ;
     font-weight: 100 ;
     letter-spacing: 2px ;
-    margin-top : 25vh ;
+    margin-top : 15vh ;
     margin-bottom: 0 ;
     padding-bottom : 0px;
 
@@ -91,7 +131,7 @@ section.black {
     }
 } */
 
-.left_col {
+/* .left_col {
     border-style: solid;
     border-width: 5px;
     border-color: #e62b1e ;
@@ -99,25 +139,7 @@ section.black {
     margin-top : 5vh ;
     font-size: 3rem ;
     color: #e62b1e ;
-}
-
-@keyframes text {
-    0%{
-        color:black ;
-        margin-bottom: -10px ;
-    }
-    50%{
-        color:#e62b1e  ;
-        letter-spacing: 10px ;
-        margin-bottom: -10px ;
-    }
-    85%{
-        color: white ;
-        letter-spacing: 2px ;
-        margin-bottom: -10px ;
-
-    }
-}
+} */
 
 #iws {
     border-style: solid ;
@@ -126,7 +148,7 @@ section.black {
 
 #whatistedx {
     border-radius: 2em ;
-    background: #fdf100 ;
+    background: red ;
     color: rgb(255, 255, 255) ;
     padding: 4em;
 }
