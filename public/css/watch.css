@@ -1,6 +1,5 @@
-html, body{
+.watch {
     background: black;
-    /* background: linear-gradient(#200122, #6f0000); */
 }
 
 .vdo-border:hover {
@@ -88,28 +87,21 @@ html, body{
     height: 100px;
 }
 
-.secTitle h1 {
+.sec-Title {
     font-size: 60px;
+    font-weight: 300;
     color: white;
     text-align: center;
 }
-hr {
-    margin: auto;
-    padding: 1rem;
-}
-
-.separator {
-  /* margin-top: 25px; */
-  /* margin-bottom: 80px; */
-  border: 0;
-}
 
 .separator--line {
-  border: 0;
-  border-bottom: 1px solid white;
-  width: 0;
-  -webkit-animation: separator-width 2s ease-out forwards;
-          animation: separator-width 2s ease-out forwards;
+    margin: auto;
+    padding: 1rem;
+    border: 0;
+    border-bottom: 1px solid white;
+    width: 0;
+    -webkit-animation: separator-width 2s ease-out forwards;
+            animation: separator-width 2s ease-out forwards;
 }
 
 @-webkit-keyframes separator-width {

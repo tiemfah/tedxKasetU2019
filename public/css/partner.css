@@ -1,8 +1,6 @@
-html, body {
-    background: black;
-    /* background: linear-gradient(#200122, #6f0000); */
+.partner {
+    background: white;
 }
-
 
 .block-sponser {
     margin-top: 30px;
@@ -10,32 +8,30 @@ html, body {
 
 .sponser-year{
     font-size: 30px;
-    color: white;
+    color: black;
     text-align: center;
-    padding-top: 10%;
 }
 
 .sponser {
     width: 30%;
     height: 30%;
-    padding: 2%;
+    padding: 3%;
 }
 
 .spacing {
     height: 100px;
 }
 
-.secTitle h1 {
+.secTitle {
     font-size: 60px;
-    color: white;
+    color: black;
+    font-weight: 300;
     text-align: center;
-}
-hr {
-    margin: auto;
-    padding: 1rem;
 }
 
 .separate--line {
+    margin: auto;
+    padding-bottom: 1rem;
     border: 0;
     border-bottom: 1px solid #dd1818;
     width: 0;
@@ -61,7 +57,14 @@ hr {
     }
 }
 
+.separate-card {
+    margin-bottom: 2rem;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
 .sponser-dd {
     width: 100%;
-    background-color: black;
+    background-color: white;
+    border: none;
 }
