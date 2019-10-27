@@ -7,9 +7,9 @@ class contact extends Component {
     super(props);
 
     this.state = {
-      q1: true,
+      q1: false,
       q2: false,
-      q3: false,
+      q3: true,
       q4: false,
       q5: false,
       q6: false,
@@ -142,7 +142,7 @@ class contact extends Component {
                   จำเป็นหรือไม่ที่จะต้องซื้อบัตร TEDxKasetsartU ?
                 </span>
                 <div className="c-faq__answer">
-                  บัตรเข้างานจำเป็นที่จะต้องใช้เพื่อเข้าชมงาน TEDxKasetsartU
+                  บัตรเข้างานจำเป็นที่จะต้องซื้อหรือไม่ ?
                   อย่าลืมที่จะซื้อบัตรที่{" "}
                   <a href="#" style={{ color: "red" }}>
                     {" "}
