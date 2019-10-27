@@ -1,16 +1,23 @@
 {
-  "name": "tedxkaset2019",
+  "name": "ted-site",
   "version": "1.0.0",
-  "description": "(this nav need jquery)",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "npm run build && npm run export"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^2.4.2",
-    "ejs": "^2.7.1",
-    "express": "^4.17.1"
+    "@zeit/next-css": "^1.0.1",
+    "next": "^9.1.1",
+    "next-images": "^1.2.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
   }
 }

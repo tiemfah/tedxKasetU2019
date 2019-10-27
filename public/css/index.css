@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
+body{
+    background: #000;
+}
+section.black{
+    margin-top : 3rem;
+    /* height: 100vh; */
+    background: #000;
+    /* background-image: url('https://images.pexels.com/photos/325044/pexels-photo-325044.jpeg'); */
+    background-size: cover;
+}
+section.white{
+    margin: 0 ;
+    margin-top: 0 ;
+    /* height: 200vh; */
+    background:black;
+    text-align: center ;
+}
+video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media screen and  (max-width: 700 px) {
+    
+    .front {
+        filter:opacity(100%);
+        align-content: center ;
+        left : 0% ;
+        height: auto ;
+        width: 50% ;
+        float: left ;
+        position: absolute; 
+    }
+
+    .back {
+        height:auto;
+        width: 50%;
+    }
+
+  }
+
+.front {
+    /* margin-top : 8em ;  */
+    filter:opacity(100%);
+    top : 10vh  ;
+    align-content: center ;
+    left : 0% ;
+    /* height: auto ; */
+    width: 180vh ;
+    float: left ;
+    position: absolute; 
+}
+
+
+.back {
+    /* filter:opacity(100%); */
+    /* padding-top: 3% ; */
+    height:auto;
+    width: 158vh;
+    /* border:5px solid blue; */
+}
+
+
+.container{
+    text-align: center ;
+    position: absolute ;
+    top : 120% ;
+    left: 10%;
+    width : 100%;
+}
+
+
+.container span{
+    font-family: 'Kanit', sans-serif;
+    padding-bottom: 3rem ;
+    text-align: center ;
+    color : white;
+    display: block ;
+}
+
+
+.text1 {
+    /* background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    width: 100% ;
+    font-size: 80px ;
+    font-weight: 100 ;
+    letter-spacing: 2px ;
+    margin-bottom: 0px ;
+    padding: 0px ;
+    padding-bottom : 0px;
+    animation: text 3s 1 ;
+}
+/* 
+.text1.animateMe{
+    animation: text 3s 1 ;
+
+} */
+
+.text2 {
+    width: 100% ;
+    font-size: 80px ;
+    font-weight: 100 ;
+    letter-spacing: 2px ;
+    margin-top : 25vh ;
+    margin-bottom: 0 ;
+    padding-bottom : 0px;
+
+}
+
+@keyframes text {
+    0%{
+        color:black ;
+        margin-bottom: -10px ;
+    }
+    50%{
+        color:#e62b1e  ;
+        letter-spacing: 10px ;
+        margin-bottom: -10px ;
+    }
+    85%{
+        color: white ;
+        letter-spacing: 2px ;
+        margin-bottom: -10px ;
+
+    }
+}
+
+.left_col {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #e62b1e ;
+    font-family: Helvetica, sans-serif ;
+    margin-top : 5vh ;
+    font-size: 3rem ;
+    color: #e62b1e ;
+}
+
+@keyframes text {
+    0%{
+        color:black ;
+        margin-bottom: -10px ;
+    }
+    50%{
+        color:#e62b1e  ;
+        letter-spacing: 10px ;
+        margin-bottom: -10px ;
+    }
+    85%{
+        color: white ;
+        letter-spacing: 2px ;
+        margin-bottom: -10px ;
+
+    }
+}
+
+#iws {
+    border-style: solid ;
+    border : red ;
+}
+
+#whatistedx {
+    border-radius: 2em ;
+    background: #e62b1e8c ;
+    color: rgb(255, 255, 255) ;
+    padding: 4em;
+}
+#whatistedx p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+
+
+#TEDxKU {
+    border-radius: 2em ;
+    background: #e62b1e8c ;
+    color: rgb(255, 255, 255) ;
+    padding: 3rem;
+    margin-bottom: 20vh ;
+}
+#TEDxKU p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+
+
