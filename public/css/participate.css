@@ -109,8 +109,73 @@ html, body {
 }
 
 /* for responsive */
+@media screen and (max-width: 1024px) {
+    .grid-container {
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .box-flex {
+        flex-wrap: wrap;
+    }
+    .box {
+        height: 400px;
+        width: 300px;
+        transition: none;
+        background-color: rgba(255, 0, 0, 0.8);
+        border: 0px 
+    }
 
-@media screen and (max-width: 1000px) {
+    .up {
+        margin-top: 50px;
+    }
+    
+    .handshake {
+        width: 250px;
+        height: 250px;
+        margin-top: 50px; 
+        transition: none;
+    }
+    .raise-hand {
+        width: 200px;
+        height: 200px;
+        margin-top: 60px;
+        transition: none;
+    }
+    .describe {
+        display: none;
+        transition: none;
+    }
+    .box:hover {
+        background-color: rgba(255, 0, 0, 0.8);
+    }
+    /* on box hover */
+    .box:hover>.handshake {
+        width: 250px;
+        height: 250px;
+        margin-top: 50px; 
+    }
+    .box:hover>.raise-hand {
+        width: 200px;
+        height: 200px;
+        margin-top: 60px; 
+        
+    }
+    .box:hover>.describe {
+        display: none;
+        color: white;
+    }
+
+    .topic {
+        font-size: 23px;
+        margin: 25px 25px 0px 25px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 610px) {
     .grid-container {
         justify-content: center;
     }
