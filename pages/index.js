@@ -3,13 +3,13 @@ import '../public/css/index.css';
 
 
 const index = () => (
-    <Layout>
+    <Layout isWhiteNav={true}>
         <div>
             <section className="black">
                 <div className ="banner">
-                    <div class="row">
+                    <div className="row">
                         <img className="front" id="vid_back" src="img/alive2.png"></img>
-                        <video autoplay loop preload="auto" muted=" "  class="back" id="vid_front"  >
+                        <video autoPlay loop preload="auto" muted=" "  className="back" id="vid_front"  >
                             <source src="img/back_cover.mp4" type="video/mp4" />
                         </video>
                     </div> 
@@ -20,7 +20,7 @@ const index = () => (
                     <div data-aos="fade-down">
                             <span className="text1">TEDx คืออะไร ?</span>
                     </div>
-                    <div class="row" >
+                    <div className="row" >
                         <div data-aos="fade-right" id="whatistedx">
                             <p>     TEDx เกิดขึ้นมาเพื่อสืบทอดเจตนารมณ์ "Ideas Worth Spreading" ของ TED ที่ต้องการส่งต่อรูปแบบการเผยแพร่ความคิดด้วยพลัง 
                                 "Powerful Talk" ไปยังที่ต่างๆทั่วโลก TED จึงเปิดโอกาสให้ 'แต่ละภูมิภาค หรือ แต่ละชุมชน' สามารถติดต่อขออนุญาต 'TED Conferences LCC ประเทศสหรัฐอเมริกา'
@@ -33,7 +33,7 @@ const index = () => (
                     <div data-aos="fade-down">
                         <span className="text2">TEDxKasetsart</span>
                     </div>
-                    <div class="row">
+                    <div className="row">
                         <div data-aos="fade-right" id="TEDxKU">
                                 <p>     TEDx เกิดขึ้นมาเพื่อสืบทอดเจตนารมณ์ "Ideas Worth Spreading" ของ TED ที่ต้องการส่งต่อรูปแบบการเผยแพร่ความคิดด้วยพลัง 
                                     "Powerful Talk" ไปยังที่ต่างๆทั่วโลก TED จึงเปิดโอกาสให้ 'แต่ละภูมิภาค หรือ แต่ละชุมชน' สามารถติดต่อขออนุญาต 'TED Conferences LCC ประเทศสหรัฐอเมริกา'
