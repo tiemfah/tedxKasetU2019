@@ -18,7 +18,7 @@ const partner = () => (
             <hr className="separate--line" />
             <div className="spacing"></div>
 
-            <Accordion className="col-lg-10 mx-auto">
+            <Accordion className="col-lg-10 mx-auto" defaultActiveKey="0">
                 <Card className="border-0 text-center m-auto">
                     <Accordion.Toggle as={Card.Header} eventKey="0" className="sponser-dd sponser-year">
                         <hr className="separate-card" />
