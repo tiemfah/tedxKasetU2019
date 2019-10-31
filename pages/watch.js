@@ -90,10 +90,10 @@ class watch extends Component {
 
                     {/* year 2018 */}
                     <div className="lazy thisyear" id="year18">
-                        <h1 data-aos="fade-up" className="yrTitle">Out of Norm</h1>
+                        <h1 className="yrTitle">Out of Norm</h1>
                         <div className="lazy slider-wrapper">
-                            <h4 data-aos="fade-up">201</h4>
-                            <h4 data-aos="fade-up">
+                            <h4>201</h4>
+                            <h4>
                                 <span>
                                     9 <br />
                                     8 <br />
@@ -230,10 +230,10 @@ class watch extends Component {
 
                     {/* year 2017 */}
                     <div className="lazy thisyear" id="year17">
-                        <h1 data-aos="fade-up" className="yrTitle">Take a change, Make a chance</h1>
+                        <h1 className="yrTitle">Take a change, Make a chance</h1>
                         <div className="lazy slider-wrapper">
-                            <h4 data-aos="fade-up">201</h4>
-                            <h4 data-aos="fade-up">
+                            <h4>201</h4>
+                            <h4>
                                 <span>
                                     9 <br />
                                     8 <br />
