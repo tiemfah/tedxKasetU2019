@@ -1,0 +1,70 @@
+.partner {
+    background: white;
+}
+
+.block-sponser {
+    margin-top: 30px;
+}
+
+.sponser-year{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.sponser {
+    width: 30%;
+    height: 30%;
+    padding: 3%;
+}
+
+.spacing {
+    height: 100px;
+}
+
+.secTitle {
+    font-size: 60px;
+    color: black;
+    font-weight: 300;
+    text-align: center;
+}
+
+.separate--line {
+    margin: auto;
+    padding-bottom: 1rem;
+    border: 0;
+    border-bottom: 1px solid #dd1818;
+    width: 0;
+    -webkit-animation: separator-len 2s ease-out forwards;
+            animation: separator-len 2s ease-out forwards;
+}
+
+@-webkit-keyframes separator-len {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 20%;
+    }
+}
+
+@keyframes separator-len {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 20%;
+    }
+}
+
+.separate-card {
+    margin-bottom: 2rem;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
+.sponser-dd {
+    width: 100%;
+    background-color: white;
+    border: none;
+}
