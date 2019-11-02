@@ -40,6 +40,9 @@ html, body {
     border: 1px solid rgba(160, 160, 160, 0);
 }
 
+.linkdiv:hover {
+    text-decoration: none;
+}
 /* on box hover */
 
 .box:hover>.handshake {
@@ -122,7 +125,8 @@ html, body {
         width: 300px;
         transition: none;
         background-color: rgba(255, 0, 0, 0.8);
-        border: 0px 
+        border: 0px ;
+        padding-top: 1px;
     }
 
     .up {
@@ -187,7 +191,8 @@ html, body {
         width: 210px;
         transition: none;
         background-color: rgba(255, 0, 0, 0.8);
-        border: 0px 
+        border: 0px; 
+        padding-top:1px;
     }
 
     .up {
