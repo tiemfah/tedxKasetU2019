@@ -59,10 +59,16 @@ class NavBar extends Component {
                 <nav>
                     <ul>
                         <li><Link href="/speaker"><a title="speaker">Speaker</a></Link></li>
+                        <li className="divider">|</li>
                         <li><Link href="/partner"><a title="partner">Partner</a></Link></li>
+                        <li className="divider">|</li>
                         <li><Link href="/watch"><a title="watch">Watch</a></Link></li>
+                        <li className="divider">|</li>
                         <li><Link href="/participate"><a title="participate">Team</a></Link></li>
+                        <li className="divider">|</li>
                         <li><Link href="/contact"><a title="contact">contact</a></Link></li>
+                        <li className="divider">|</li>
+                        <li><a href="https://www.eventpop.me/e/6898" target="_blank">TICKET</a></li>
                     </ul>
                 </nav>
             </header>
