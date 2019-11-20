@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Mitr&display=swap');
+
 :root{
     margin: 0px ;
 }
 
+p{
+    font-family: 'Mitr', sans-serif;
+}
+
 .front {
+    font-family: 'Mitr', sans-serif;
     align-content: center ;
     width: 100% ;
     height: auto ;
@@ -25,17 +32,17 @@
 }
 
 #alive {
+    font-family: 'Mitr', sans-serif;
     margin-top : 0px ;
     margin-left : 5rem;
     margin-right : 5rem;
     padding : 2rem;
-    font-family: 'Kanit', sans-serif;
     font-size: 20px;
 
 }
 
 .container span{
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Mitr', sans-serif;
     /* padding-bottom: 3rem ; */
     text-align: center ;
     color : rgb(255, 4, 4);
@@ -93,10 +100,11 @@
 
 
 .text1{
+    font-family: 'Mitr', sans-serif;
     padding : 7rem;
     text-align: center ;
     width: 100% ;
-    font-size: 4rem ;
+    font-size: 3rem ;
     font-weight: 500 ;
     font-weight: 100 ;
     letter-spacing: 2px ;
@@ -105,10 +113,11 @@
 } 
 
 .text2 {
+    font-family: 'Mitr', sans-serif;
     padding: 9rem;
     text-align: center ;
     width: 100% ;
-    font-size: 80px ;
+    font-size: 3rem ;
     font-weight: 500 ;
     font-weight: 100 ;
     letter-spacing: 2px ;
@@ -120,15 +129,16 @@
 } 
 
 #alive {
+    font-family: 'Mitr', sans-serif;
     margin-top : 0px ;
     margin-left : 5rem;
     margin-right : 5rem;
     padding : 2rem;
-    font-family: 'Kanit', sans-serif;
     font-size: 20px;
 
 }
 #whatistedx p{
+    font-family: 'Mitr', sans-serif;
     margin : 3rem;
     /* margin-left : 7rem ;
     margin-right : 7rem ;
@@ -136,11 +146,11 @@
     background-color: red;
     border-radius : 2rem; */
     color: white;
-    font-family: 'Kanit', sans-serif;
     font-size: 20px;
 } 
 
 #TEDxKU p{
+    font-family: 'Mitr', sans-serif;
      margin : 6rem;
     /*margin-left : 7rem ;
     margin-right : 7rem ;
@@ -148,6 +158,5 @@
     background-color: red;
     border-radius : 2rem; */
     color: white;
-    font-family: 'Kanit', sans-serif;
     font-size: 20px;
 }  
