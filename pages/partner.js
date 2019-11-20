@@ -4,6 +4,8 @@ import ElecImage from '../public/img/sponser/elec.png'
 import EngImage from '../public/img/sponser/eng-ku.png'
 import OldEngImage from '../public/img/sponser/old-eng.png'
 import OsotImage from '../public/img/sponser/osot.png'
+import SabinaImage from '../public/img/sponser/sabina.jpg'
+import ThaibevImage from '../public/img/sponser/thaibev.jpg'
 
 import '../public/css/partner.css';
 import { Card, Accordion } from 'react-bootstrap';
@@ -26,11 +28,9 @@ const partner = () => (
                 </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">
                         <Card.Body className="col-lg-9 mx-auto">
-                            <a href="https://www.pea.co.th/" target="blank"><img src={ElecImage} alt='partner' className="sponser" /></a>
                             <a href="https://www.eng.ku.ac.th/" target="blank"><img src={EngImage} alt='partner' className="sponser" /></a>
-                            <a href="http://dongtanengineer.com/" target="blank"><img src={OldEngImage} alt='partner' className="sponser" /></a>
-                            <a href="http://www.ais.co.th/" target="blank"><img src={AisImage} alt='partner' className="sponser" /></a>
-                            <a href="https://www.osotspa.com/new/th/home/" target="blank"><img src={OsotImage} alt='partner' className="sponser" /></a>
+                            <a href="https://www.sabina.co.th/" target="blank"><img src={SabinaImage} alt='partner' className="sponser" /></a>
+                            <a href="https://www.thaibev.com/" target="blank"><img src={ThaibevImage} alt='partner' className="sponser" /></a>
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>
