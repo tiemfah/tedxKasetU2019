@@ -18,8 +18,8 @@ div.small-root {
 }
 
 .speaker-box {
-  width: 450px;
-  height: 1000px;
+  width: 400px;
+  height: auto;
   background: white;
   margin: 3% 2%;
   text-align: center;
@@ -31,7 +31,7 @@ div.small-root {
 
 
 .speaker-portrait {
-  width: 450px;
+  width: 400px;
   height: 400px;
   object-fit: cover;
   position: relative;
