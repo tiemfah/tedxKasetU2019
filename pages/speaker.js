@@ -5,7 +5,7 @@ import Bell from "../public/img/speaker/bellchaichan.jpg";
 import HongtaeJump from "../public/img/speaker/hongtaeJump.jpg";
 import JaeMook from "../public/img/speaker/jaemook.jpg";
 import Jutapat from "../public/img/speaker/jutapat.jpg";
-import Karuna from "../public/img/speaker/Karuna.jpg";
+import Karuna from "../public/img/speaker/karuna.jpg";
 import Patty from "../public/img/speaker/patty.jpg";
 import Putiyod from "../public/img/speaker/putiyod.jpg";
 import Warodom from "../public/img/speaker/warodom.jpg";
