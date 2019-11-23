@@ -4,7 +4,7 @@ import RaiseImage from '../public/img/raise-hand.png'
 import '../public/css/participate.css'
 
 const participate = () => (
-    <Layout>
+    <Layout isWhiteNav={true}>
         <div>
             <div className="grid-container">
                 <div className="box-flex">
